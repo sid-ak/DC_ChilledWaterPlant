@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" units="mm" filename="DC_Plant.nwd" filepath="C:\work\DC">
+  <batchtest name="Report" internal_name="Report" units="mm">
+    <clashtests>
+      <clashtest name="T1 Tray vs Piping" test_type="hard" status="ok" tolerance="10.000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/SS-TRAY</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/SS-PIPE</locator>
+          </clashselection>
+        </right>
+        <rules/>
+        <summary total="2" new="2" active="0" reviewed="0" approved="0" resolved="0">
+          <testtype>Hard</testtype>
+          <teststatus>OK</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Clash1" guid="b6d26bee-b8f0-4407-87da-32b608d40cb2" href="clash_before_files\cd000001.jpg" status="new" distance="-57.331">
+            <description>Hard</description>
+            <resultstatus>New</resultstatus>
+            <clashpoint>
+              <pos3f x="8770.106" y="8023.191" z="2975.000"/>
+            </clashpoint>
+            <createddate>
+              <date year="2026" month="10" day="8" hour="13" minute="6" second="13"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>928554</value>
+                </objectattribute>
+                <layer>Level 1</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>DC_Plant.nwd</node>
+                  <node>Level 1</node>
+                  <node>Cable Trays</node>
+                  <node>Cable Tray without Fittings</node>
+                  <node>Default</node>
+                  <node>Cable Tray without Fittings</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Cable Tray without Fittings</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Cable Trays: Cable Tray without Fittings: Default</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>928023</value>
+                </objectattribute>
+                <layer>Level 1</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>DC_Plant.nwd</node>
+                  <node>Level 1</node>
+                  <node>Pipes</node>
+                  <node>Pipe Types</node>
+                  <node>Standard</node>
+                  <node>Pipe Types</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Pipe Types</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Pipes: Pipe Types: Standard</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash2" guid="64d61c3e-e77f-4b36-a380-d84c3d1337d6" href="clash_before_files\cd000002.jpg" status="new" distance="-50.563">
+            <description>Hard</description>
+            <resultstatus>New</resultstatus>
+            <clashpoint>
+              <pos3f x="8728.303" y="6977.223" z="2977.540"/>
+            </clashpoint>
+            <createddate>
+              <date year="2026" month="10" day="8" hour="13" minute="6" second="13"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>928554</value>
+                </objectattribute>
+                <layer>Level 1</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>DC_Plant.nwd</node>
+                  <node>Level 1</node>
+                  <node>Cable Trays</node>
+                  <node>Cable Tray without Fittings</node>
+                  <node>Default</node>
+                  <node>Cable Tray without Fittings</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Cable Tray without Fittings</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Cable Trays: Cable Tray without Fittings: Default</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>928017</value>
+                </objectattribute>
+                <layer>Level 1</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>DC_Plant.nwd</node>
+                  <node>Level 1</node>
+                  <node>Pipes</node>
+                  <node>Pipe Types</node>
+                  <node>Standard</node>
+                  <node>Pipe Types</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Pipe Types</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Pipes: Pipe Types: Standard</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+      <clashtest name="T2 Tray vs Structure" test_type="hard" status="ok" tolerance="10.000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/SS-TRAY</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/SS-STRUCT</locator>
+          </clashselection>
+        </right>
+        <rules/>
+        <summary total="2" new="2" active="0" reviewed="0" approved="0" resolved="0">
+          <testtype>Hard</testtype>
+          <teststatus>OK</teststatus>
+        </summary>
+        <clashresults>
+          <clashresult name="Clash1" guid="d9604cf4-4b97-4cb7-a69d-5558004e19fa" href="clash_before_files\cd010001.jpg" status="new" distance="-121.535">
+            <description>Hard</description>
+            <resultstatus>New</resultstatus>
+            <clashpoint>
+              <pos3f x="6800.000" y="5925.000" z="3012.171"/>
+            </clashpoint>
+            <createddate>
+              <date year="2026" month="10" day="8" hour="13" minute="6" second="19"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>928550</value>
+                </objectattribute>
+                <layer>Level 1</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>DC_Plant.nwd</node>
+                  <node>Level 1</node>
+                  <node>Cable Trays</node>
+                  <node>Cable Tray without Fittings</node>
+                  <node>Default</node>
+                  <node>Cable Tray without Fittings</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Cable Tray without Fittings</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Cable Trays: Cable Tray without Fittings: Default</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>927992</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>DC_Plant.nwd</node>
+                  <node>&lt;No level&gt;</node>
+                  <node>Structural Columns</node>
+                  <node>Structural Columns</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Structural Columns</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Structural Columns</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+          <clashresult name="Clash2" guid="0c588bfc-1d09-455e-81ac-b2fce8a5fd01" href="clash_before_files\cd010002.jpg" status="new" distance="-121.535">
+            <description>Hard</description>
+            <resultstatus>New</resultstatus>
+            <clashpoint>
+              <pos3f x="13600.000" y="5925.000" z="2989.803"/>
+            </clashpoint>
+            <createddate>
+              <date year="2026" month="10" day="8" hour="13" minute="6" second="19"/>
+            </createddate>
+            <clashobjects>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>928550</value>
+                </objectattribute>
+                <layer>Level 1</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>DC_Plant.nwd</node>
+                  <node>Level 1</node>
+                  <node>Cable Trays</node>
+                  <node>Cable Tray without Fittings</node>
+                  <node>Default</node>
+                  <node>Cable Tray without Fittings</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Cable Tray without Fittings</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Cable Trays: Cable Tray without Fittings: Default</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+              <clashobject>
+                <objectattribute>
+                  <name>Element ID</name>
+                  <value>927993</value>
+                </objectattribute>
+                <layer>&lt;No level&gt;</layer>
+                <pathlink>
+                  <node>File</node>
+                  <node>DC_Plant.nwd</node>
+                  <node>&lt;No level&gt;</node>
+                  <node>Structural Columns</node>
+                  <node>Structural Columns</node>
+                </pathlink>
+                <smarttags>
+                  <smarttag>
+                    <name>Item Name</name>
+                    <value>Structural Columns</value>
+                  </smarttag>
+                  <smarttag>
+                    <name>Item Type</name>
+                    <value>Structural Columns</value>
+                  </smarttag>
+                </smarttags>
+              </clashobject>
+            </clashobjects>
+          </clashresult>
+        </clashresults>
+      </clashtest>
+      <clashtest name="T3 Conduit vs Piping" test_type="hard" status="ok" tolerance="10.000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/SS-CONDUIT</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/SS-PIPE</locator>
+          </clashselection>
+        </right>
+        <rules/>
+        <summary total="0" new="0" active="0" reviewed="0" approved="0" resolved="0">
+          <testtype>Hard</testtype>
+          <teststatus>OK</teststatus>
+        </summary>
+        <clashresults/>
+      </clashtest>
+    </clashtests>
+    <selectionsets/>
+  </batchtest>
+</exchange>

@@ -1,0 +1,506 @@
+<html>
+<head>
+<META http-equiv="Content-Type" content="text/html">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Clash Report</title>
+<style>
+          body,table {
+          font-family: Calibri, Tahoma, Verdana, Arial, sans-serif;
+          }
+
+          softBreak{
+          mso-data-placement: same-cell;
+          }
+
+          tr.headerRow{
+          font-weight: bold;
+          }
+
+          table.titleTable tr.headerRow{
+          height: 75px;
+          }
+
+          table.titleTable td.headerCell{
+          font-size: 18pt;
+          vertical-align: middle;
+          }
+
+          table.titleTable td.logoCell{
+          padding: 5px 0px 0px 0px;
+          width: 180px;
+          vertical-align: middle;
+          }
+
+          table.testSummaryTable{
+          border: 3px solid black;
+          text-align: center;
+          background-color: #eeeeee;
+          border-collapse: collapse;
+          }
+
+          table.testSummaryTable tr.headerRow{
+          background: #eeeeee;
+          }
+
+          table.testSummaryTable td{
+          border-width: 1px;
+          border-style: solid;
+          border-color: #666666;
+          }
+
+          table.testSummaryTable td.testName{
+          font-size: 16pt;
+          font-weight: bold;
+          vertical-align: middle;
+          text-align: center;
+          }
+
+          table.mainTable{
+          border-collapse: collapse;
+          }
+
+          table.mainTable tr.contentRow{
+          height: 100px;
+          }
+
+          table.mainTable tr.childRow{
+          height: 100px;
+          }
+
+          table.mainTable tr.childRowLast{
+          height: 100px;
+          }
+
+          table.mainTable tr.clashGroupRow{
+          height: 100px;
+          font-weight: bold;
+          }
+
+          table.mainTable td{
+          vertical-align: middle;
+          border: 1px solid #999999;
+          }
+
+          table.mainTable td.mergedCellHeader{
+          text-align:center;
+          }
+
+          table.mainTable tr.clashGroupRow td{
+          font-weight: bold;
+          border-top: 5px solid #333333;
+          }
+
+          table.mainTable tr.childRow td, table.mainTable tr.childRowLast td{
+          color: #707070;
+          }
+
+          table.mainTable tr.childRow td.contentCell, table.mainTable tr.childRowLast td.contentCell{
+          background-color: #ffffee;
+          }
+
+          table.mainTable tr.childRowLast td{
+          border-bottom: 5px solid #333333;
+          }
+
+          table.mainTable td.clashGroupCell{
+          background: #ffff99;
+          }
+
+          table.mainTable td.item1HeaderGroup{
+          background-color: #99ccff;
+          text-align: center;
+          }
+
+          table.mainTable td.item2HeaderGroup{
+          background-color: #ffcccc;
+          text-align: center;
+          }
+
+          table.mainTable td.item1Header{
+          background-color: #99ccff;
+          }
+
+
+          table.mainTable td.item2Header{
+          background-color: #ffcccc;
+          }
+
+          table.mainTable td.generalHeader{
+          background-color: #eeeeee;
+          }
+
+
+          table.mainTable td.item1Content{
+          background-color: #ddeeff;
+          }
+
+          table.mainTable td.item2Content{
+          background-color: #ffeeee;
+          }
+
+          table.mainTable tr.clashGroupRow td.item1Content{
+          background-color: #bbddff;
+          }
+
+          table.mainTable tr.clashGroupRow td.item2Content{
+          background-color: #ffdddd;
+          }
+
+
+          span.hiddenText{
+          color: white;
+          height: 1px;
+          font-size: 5pt;
+          }
+        </style>
+</head>
+<body>
+<table class="titleTable">
+<tr class="headerRow">
+<td class="logoCell" colspan="3"><img alt="logo" src="clash_before_files\logo.jpg"></td>
+<td class="headerCell" colspan="50">
+              Clash Report<br></td>
+<tr>
+<td></td>
+</tr>
+</tr>
+</table><br><table class="testSummaryTable">
+<tr class="headerRow">
+<td rowspan="2" colspan="2" class="testName">T1 Tray vs Piping</td>
+<td class="headerCell">Tolerance</td>
+<td class="headerCell">Clashes</td>
+<td class="headerCell">New</td>
+<td class="headerCell">Active</td>
+<td class="headerCell">Reviewed</td>
+<td class="headerCell">Approved</td>
+<td class="headerCell">Resolved</td>
+<td class="headerCell">Type</td>
+<td class="headerCell">Status</td>
+</tr>
+<tr class="contentRow">
+<td class="contentCell">10.000mm</td>
+<td class="contentCell">2</td>
+<td class="contentCell">2</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">OK</td>
+</tr>
+</table><br><table class="mainTable">
+<tr class="headerRow">
+<td colspan="11" class="generalHeader"></td>
+<td colspan="5" class="item1HeaderGroup">Item 1</td>
+<td colspan="5" class="item2HeaderGroup">Item 2</td>
+</tr>
+<tr class="headerRow">
+<td colspan="2" class="generalHeader">Image</td>
+<td colspan="2" class="generalHeader">Clash Name</td>
+<td class="generalHeader">Status</td>
+<td class="generalHeader">Distance</td>
+<td class="generalHeader">Description</td>
+<td class="generalHeader">Date Found</td>
+<td colspan="3" class="generalHeader">Clash Point</td>
+<td class="item1Header">Item ID</td>
+<td class="item1Header">Layer</td>
+<td class="item1Header">Path</td>
+<td class="item1Header">Item Name</td>
+<td class="item1Header">Item Type</td>
+<td class="item2Header">Item ID</td>
+<td class="item2Header">Layer</td>
+<td class="item2Header">Path</td>
+<td class="item2Header">Item Name</td>
+<td class="item2Header">Item Type</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="clash_before_files\cd000001.jpg "><img border="0" width="95" height="95" src="clash_before_files\cd000001.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash1</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-57.331</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2026/10/8 
+      13:11</td>
+<td colspan="3" class="contentCell">
+          x:8770.106,
+          y:8023.191,
+          z:2975.000</td>
+<td class="item1Content"><i>Element ID</i>:
+            928554</td>
+<td class="item1Content">Level 1</td>
+<td class="item1Content">File
+                &gt;
+              DC_Plant.nwd
+                &gt;
+              Level 1
+                &gt;
+              Cable Trays
+                &gt;
+              Cable Tray without Fittings
+                &gt;
+              Default
+                &gt;
+              Cable Tray without Fittings</td>
+<td class="item1Content">Cable Tray without Fittings</td>
+<td class="item1Content">Cable Trays: Cable Tray without Fittings: Default</td>
+<td class="item2Content"><i>Element ID</i>:
+            928023</td>
+<td class="item2Content">Level 1</td>
+<td class="item2Content">File
+                &gt;
+              DC_Plant.nwd
+                &gt;
+              Level 1
+                &gt;
+              Pipes
+                &gt;
+              Pipe Types
+                &gt;
+              Standard
+                &gt;
+              Pipe Types</td>
+<td class="item2Content">Pipe Types</td>
+<td class="item2Content">Pipes: Pipe Types: Standard</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="clash_before_files\cd000002.jpg "><img border="0" width="95" height="95" src="clash_before_files\cd000002.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash2</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-50.563</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2026/10/8 
+      13:11</td>
+<td colspan="3" class="contentCell">
+          x:8728.303,
+          y:6977.223,
+          z:2977.540</td>
+<td class="item1Content"><i>Element ID</i>:
+            928554</td>
+<td class="item1Content">Level 1</td>
+<td class="item1Content">File
+                &gt;
+              DC_Plant.nwd
+                &gt;
+              Level 1
+                &gt;
+              Cable Trays
+                &gt;
+              Cable Tray without Fittings
+                &gt;
+              Default
+                &gt;
+              Cable Tray without Fittings</td>
+<td class="item1Content">Cable Tray without Fittings</td>
+<td class="item1Content">Cable Trays: Cable Tray without Fittings: Default</td>
+<td class="item2Content"><i>Element ID</i>:
+            928017</td>
+<td class="item2Content">Level 1</td>
+<td class="item2Content">File
+                &gt;
+              DC_Plant.nwd
+                &gt;
+              Level 1
+                &gt;
+              Pipes
+                &gt;
+              Pipe Types
+                &gt;
+              Standard
+                &gt;
+              Pipe Types</td>
+<td class="item2Content">Pipe Types</td>
+<td class="item2Content">Pipes: Pipe Types: Standard</td>
+</tr>
+</table>
+<hr><br><table class="testSummaryTable">
+<tr class="headerRow">
+<td rowspan="2" colspan="2" class="testName">T2 Tray vs Structure</td>
+<td class="headerCell">Tolerance</td>
+<td class="headerCell">Clashes</td>
+<td class="headerCell">New</td>
+<td class="headerCell">Active</td>
+<td class="headerCell">Reviewed</td>
+<td class="headerCell">Approved</td>
+<td class="headerCell">Resolved</td>
+<td class="headerCell">Type</td>
+<td class="headerCell">Status</td>
+</tr>
+<tr class="contentRow">
+<td class="contentCell">10.000mm</td>
+<td class="contentCell">2</td>
+<td class="contentCell">2</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">OK</td>
+</tr>
+</table><br><table class="mainTable">
+<tr class="headerRow">
+<td colspan="11" class="generalHeader"></td>
+<td colspan="5" class="item1HeaderGroup">Item 1</td>
+<td colspan="5" class="item2HeaderGroup">Item 2</td>
+</tr>
+<tr class="headerRow">
+<td colspan="2" class="generalHeader">Image</td>
+<td colspan="2" class="generalHeader">Clash Name</td>
+<td class="generalHeader">Status</td>
+<td class="generalHeader">Distance</td>
+<td class="generalHeader">Description</td>
+<td class="generalHeader">Date Found</td>
+<td colspan="3" class="generalHeader">Clash Point</td>
+<td class="item1Header">Item ID</td>
+<td class="item1Header">Layer</td>
+<td class="item1Header">Path</td>
+<td class="item1Header">Item Name</td>
+<td class="item1Header">Item Type</td>
+<td class="item2Header">Item ID</td>
+<td class="item2Header">Layer</td>
+<td class="item2Header">Path</td>
+<td class="item2Header">Item Name</td>
+<td class="item2Header">Item Type</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="clash_before_files\cd010001.jpg "><img border="0" width="95" height="95" src="clash_before_files\cd010001.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash1</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-121.535</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2026/10/8 
+      13:11</td>
+<td colspan="3" class="contentCell">
+          x:6800.000,
+          y:5925.000,
+          z:3012.171</td>
+<td class="item1Content"><i>Element ID</i>:
+            928550</td>
+<td class="item1Content">Level 1</td>
+<td class="item1Content">File
+                &gt;
+              DC_Plant.nwd
+                &gt;
+              Level 1
+                &gt;
+              Cable Trays
+                &gt;
+              Cable Tray without Fittings
+                &gt;
+              Default
+                &gt;
+              Cable Tray without Fittings</td>
+<td class="item1Content">Cable Tray without Fittings</td>
+<td class="item1Content">Cable Trays: Cable Tray without Fittings: Default</td>
+<td class="item2Content"><i>Element ID</i>:
+            927992</td>
+<td class="item2Content">&lt;No level&gt;</td>
+<td class="item2Content">File
+                &gt;
+              DC_Plant.nwd
+                &gt;
+              &lt;No level&gt;
+                &gt;
+              Structural Columns
+                &gt;
+              Structural Columns</td>
+<td class="item2Content">Structural Columns</td>
+<td class="item2Content">Structural Columns</td>
+</tr>
+<tr class="contentRow">
+<td colspan="2" class="contentCell"><a target="_blank" href="clash_before_files\cd010002.jpg "><img border="0" width="95" height="95" src="clash_before_files\cd010002.jpg"></a></td>
+<td colspan="2" class="contentCell">Clash2</td>
+<td class="contentCell">New</td>
+<td class="contentCell">-121.535</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">2026/10/8 
+      13:11</td>
+<td colspan="3" class="contentCell">
+          x:13600.000,
+          y:5925.000,
+          z:2989.803</td>
+<td class="item1Content"><i>Element ID</i>:
+            928550</td>
+<td class="item1Content">Level 1</td>
+<td class="item1Content">File
+                &gt;
+              DC_Plant.nwd
+                &gt;
+              Level 1
+                &gt;
+              Cable Trays
+                &gt;
+              Cable Tray without Fittings
+                &gt;
+              Default
+                &gt;
+              Cable Tray without Fittings</td>
+<td class="item1Content">Cable Tray without Fittings</td>
+<td class="item1Content">Cable Trays: Cable Tray without Fittings: Default</td>
+<td class="item2Content"><i>Element ID</i>:
+            927993</td>
+<td class="item2Content">&lt;No level&gt;</td>
+<td class="item2Content">File
+                &gt;
+              DC_Plant.nwd
+                &gt;
+              &lt;No level&gt;
+                &gt;
+              Structural Columns
+                &gt;
+              Structural Columns</td>
+<td class="item2Content">Structural Columns</td>
+<td class="item2Content">Structural Columns</td>
+</tr>
+</table>
+<hr><br><table class="testSummaryTable">
+<tr class="headerRow">
+<td rowspan="2" colspan="2" class="testName">T3 Conduit vs Piping</td>
+<td class="headerCell">Tolerance</td>
+<td class="headerCell">Clashes</td>
+<td class="headerCell">New</td>
+<td class="headerCell">Active</td>
+<td class="headerCell">Reviewed</td>
+<td class="headerCell">Approved</td>
+<td class="headerCell">Resolved</td>
+<td class="headerCell">Type</td>
+<td class="headerCell">Status</td>
+</tr>
+<tr class="contentRow">
+<td class="contentCell">10.000mm</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">0</td>
+<td class="contentCell">Hard</td>
+<td class="contentCell">OK</td>
+</tr>
+</table><br><table class="mainTable">
+<tr class="headerRow">
+<td colspan="11" class="generalHeader"></td>
+<td colspan="5" class="item1HeaderGroup">Item 1</td>
+<td colspan="5" class="item2HeaderGroup">Item 2</td>
+</tr>
+<tr class="headerRow">
+<td colspan="2" class="generalHeader">Image</td>
+<td colspan="2" class="generalHeader">Clash Name</td>
+<td class="generalHeader">Status</td>
+<td class="generalHeader">Distance</td>
+<td class="generalHeader">Description</td>
+<td class="generalHeader">Date Found</td>
+<td colspan="3" class="generalHeader">Clash Point</td>
+<td class="item1Header">Item ID</td>
+<td class="item1Header">Layer</td>
+<td class="item1Header">Path</td>
+<td class="item1Header">Item Name</td>
+<td class="item1Header">Item Type</td>
+<td class="item2Header">Item ID</td>
+<td class="item2Header">Layer</td>
+<td class="item2Header">Path</td>
+<td class="item2Header">Item Name</td>
+<td class="item2Header">Item Type</td>
+</tr>
+</table>
+<hr><br></body>
+</html>
