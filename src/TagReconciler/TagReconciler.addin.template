@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Name>Reconcile Instrument Tags</Name>
+    <Text>Reconcile Instrument Tags</Text>
+    <Description>Compares model instrument tags and services with the instrument index, writes a report and exports the schedule.</Description>
+    <Assembly>{ASM}</Assembly>
+    <AddInId>36006d74-100f-5127-805b-aef8710a4f5d</AddInId>
+    <FullClassName>TagReconciler.ReconcileCommand</FullClassName>
+    <VendorId>SIDA</VendorId>
+    <VendorDescription>S. Anandkumar</VendorDescription>
+  </AddIn>
+</RevitAddIns>
